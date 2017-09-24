@@ -1,0 +1,151 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    card_view:cardBackgroundColor="#fff"
+    android:layout_marginTop="20dp"
+    card_view:cardElevation="7dp"
+    card_view:contentPadding="7dp"
+    card_view:cardCornerRadius="7dp"
+    card_view:cardMaxElevation="7dp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+        <ImageView
+            android:layout_width="124sp"
+            android:layout_height="124sp"
+            android:id="@+id/icon"
+            android:src="@drawable/icon"
+            android:height="150sp"
+            android:width="150sp"
+            android:layout_gravity="left"
+          />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posted By : "
+                android:paddingBottom="2dp"
+                />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Name Show Here"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Item :"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Item Show Here" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Description : "
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Description Show"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Location : "
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Location Show Here"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Date : "
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="Date Show Here"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="60dp"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="60dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                />
+
+            <TextView
+                android:id="@+id/share"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_share_black_24dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
